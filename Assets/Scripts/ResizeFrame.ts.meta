@@ -1,0 +1,131 @@
+- !<AssetImportMetadata/bf9a99dd-2b9c-4e3e-9b16-43242de7da02>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bcf90194-2937-4752-adee-6bba8b4a568c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bcf90194-2937-4752-adee-6bba8b4a568c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 91955ca6-dc9c-4de6-8cc5-b3bf826676d6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/91955ca6-dc9c-4de6-8cc5-b3bf826676d6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 832d2307-7524-4895-9a39-b8d3c70c7e3e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backgroundMesh: false
+    borderBottom: false
+    borderInset: false
+    borderLeft: false
+    borderRight: false
+    borderThickness: false
+    borderTop: false
+    bottomHandle: false
+    bottomInter: false
+    disableDisabledInteractables: false
+    edgeOffset: false
+    enableBottom: false
+    enableLeft: false
+    enableRight: false
+    enableTop: false
+    frameVisual: false
+    handleInset: false
+    hideDisabledHandles: false
+    leftHandle: false
+    leftInter: false
+    minHeight: false
+    minWidth: false
+    rightHandle: false
+    rightInter: false
+    sensitivityX: false
+    sensitivityY: false
+    topHandle: false
+    topInter: false
+    zBg: false
+    zBorder: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - frameVisual: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      topInter: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      bottomInter: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      leftInter: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      rightInter: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      topHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bottomHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leftHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rightHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minWidth: 0.200000
+      minHeight: 0.200000
+      edgeOffset: !<float> 0.000000
+      sensitivityX: !<float> 1.000000
+      sensitivityY: !<float> 1.000000
+      enableTop: true
+      enableBottom: true
+      enableLeft: true
+      enableRight: true
+      hideDisabledHandles: true
+      disableDisabledInteractables: true
+      backgroundMesh: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      borderTop: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      borderBottom: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      borderLeft: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      borderRight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      borderThickness: 0.060000
+      borderInset: !<float> 0.000000
+      zBg: -0.010000
+      zBorder: -0.009000
+      handleInset: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType frameVisual
+    - // @input AssignableType_1 topInter
+    - // @input AssignableType_2 bottomInter
+    - // @input AssignableType_3 leftInter
+    - // @input AssignableType_4 rightInter
+    - // @input SceneObject topHandle
+    - // @input SceneObject bottomHandle
+    - // @input SceneObject leftHandle
+    - // @input SceneObject rightHandle
+    - // @input float minWidth = 1
+    - // @input float minHeight = 1
+    - // @input float edgeOffset
+    - // @input float sensitivityX = 1
+    - // @input float sensitivityY = 1
+    - // @input bool enableTop = true
+    - // @input bool enableBottom = true
+    - // @input bool enableLeft = true
+    - // @input bool enableRight = true
+    - // @input bool hideDisabledHandles = true
+    - // @input bool disableDisabledInteractables = true
+    - // @input SceneObject backgroundMesh
+    - // @input SceneObject borderTop
+    - // @input SceneObject borderBottom
+    - // @input SceneObject borderLeft
+    - // @input SceneObject borderRight
+    - // @input float borderThickness = 0.08
+    - // @input float borderInset
+    - // @input float zBg = -0.01
+    - // @input float zBorder = -0.002
+    - // @input float handleInset = 1

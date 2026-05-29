@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/1feb1937-3f48-4a7d-8fd6-f31428b01b15>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 02184150-77ea-4053-9532-64a2d290414c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 02184150-77ea-4053-9532-64a2d290414c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 59f7dfcd-ec5a-4f8b-86b0-799a8612bf79
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/59f7dfcd-ec5a-4f8b-86b0-799a8612bf79>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2683f19e-d4f0-4cf5-9447-3fc5651f1e78
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    aiLayout: false
+    aiSearch: false
+    editButton: false
+    frames: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - frames: !<MappingBased.AssignableType[]>
+        []
+      aiSearch: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      aiLayout: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      editButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input AssignableType[] frames"
+    - // @input AssignableType_1 aiSearch
+    - // @input SceneObject aiLayout
+    - // @input AssignableType_2 editButton

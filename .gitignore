@@ -1,0 +1,9 @@
+# Lens Studio generated cache
+Cache/
+
+# macOS
+.DS_Store
+
+# Editor layout/state (machine-specific)
+PluginsUserPreferences/
+Workspaces/

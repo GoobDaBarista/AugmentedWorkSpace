@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/051c0111-d5d8-4f13-819b-1c0ba44b11b1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c15c8453-f99d-41ff-b3ac-d7ecbfa76935
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c15c8453-f99d-41ff-b3ac-d7ecbfa76935
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7e43faf4-7f3e-4748-ac07-b1feb1b56297
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7e43faf4-7f3e-4748-ac07-b1feb1b56297>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7b8f59bf-732a-4dc3-8ddc-a84c86765b08
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    draggablePoint1: false
+    draggablePoint2: false
+    draggablePoint3: false
+    draggablePoint4: false
+    handTracking: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handTracking: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      draggablePoint1: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      draggablePoint2: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      draggablePoint3: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      draggablePoint4: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

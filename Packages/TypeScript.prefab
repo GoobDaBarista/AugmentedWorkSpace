@@ -1,0 +1,38 @@
+- !<ObjectPrefab/df36e4ec-6887-401e-a13c-047c9dbc03a3>
+  PackagePath: ""
+  objects:
+    - !<own> fce7d100-5750-4b46-9dbb-840e73aafe00
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/8d7d536b-74c6-4aeb-ac80-19a0ec238bd0>
+  PrefabRemaps:
+    []
+  Name: Untitled TypeScript 2
+  Enabled: true
+  ScriptAsset: !<reference> e3617a91-306d-4078-b373-e97ad39747d1
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/fce7d100-5750-4b46-9dbb-840e73aafe00>
+  PrefabRemaps:
+    - 8d7d536b-74c6-4aeb-ac80-19a0ec238bd0: 8d7d536b-74c6-4aeb-537f-e65f13dc742f
+    - fce7d100-5750-4b46-9dbb-840e73aafe00: fce7d100-5750-4b46-6244-7bf18c5501ff
+  Name: TypeScript
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8d7d536b-74c6-4aeb-ac80-19a0ec238bd0

@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/981f9d3b-f810-4baf-8716-2f675c8fcc0c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e21498dc-60bf-422d-8900-079a371e0b14
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e21498dc-60bf-422d-8900-079a371e0b14
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3a14294f-6f7a-4abc-9baa-242d758494cd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3a14294f-6f7a-4abc-9baa-242d758494cd>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 19f58055-d1c7-46a6-9812-812ac3582531
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    depthOffset: false
+    gapX: false
+    gapY: false
+    leftFrame: false
+    leftResize: false
+    pointScript: false
+    rightFrame: false
+    rightResize: false
+    sideHeightRatio: false
+    sideWidthRatio: false
+    topFrame: false
+    topHeightRatio: false
+    topResize: false
+    topWidthRatio: false
+    widget: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pointScript: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      widget: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      leftFrame: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      rightFrame: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      topFrame: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      leftResize: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      rightResize: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      topResize: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      sideWidthRatio: 0.500000
+      sideHeightRatio: !<float> 1.000000
+      topWidthRatio: !<float> 1.000000
+      topHeightRatio: 0.500000
+      gapX: !<float> 0.000000
+      gapY: !<float> 0.000000
+      depthOffset: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType pointScript
+    - // @input AssignableType_1 widget
+    - // @input AssignableType_2 leftFrame
+    - // @input AssignableType_3 rightFrame
+    - // @input AssignableType_4 topFrame
+    - // @input AssignableType_5 leftResize
+    - // @input AssignableType_6 rightResize
+    - // @input AssignableType_7 topResize
+    - // @input float sideWidthRatio = 0.5
+    - // @input float sideHeightRatio = 1
+    - // @input float topWidthRatio = 1
+    - // @input float topHeightRatio = 0.5
+    - // @input float gapX
+    - // @input float gapY
+    - // @input float depthOffset

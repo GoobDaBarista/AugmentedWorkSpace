@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/fd930996-3829-4098-a137-c326e13a3cf7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 90dfd61c-400b-4db9-85bf-4e99e5911937
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 90dfd61c-400b-4db9-85bf-4e99e5911937
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e83ada29-5d4f-4211-b444-55f4fe7c3637
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e83ada29-5d4f-4211-b444-55f4fe7c3637>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5f4855b5-7022-4e42-b50a-febade172e78
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    outputDisplay: false
+    question: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - question: "What are some ideas for Lenses?"
+      outputDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string question = "What are some ideas for Lenses?"'
+    - // @input Component.Text outputDisplay

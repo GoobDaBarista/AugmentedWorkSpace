@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/cf5a19d3-adea-4365-b7e5-8b8018ff915d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bc52c1bc-b446-4e29-a6ad-a2fd19e43534
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bc52c1bc-b446-4e29-a6ad-a2fd19e43534
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a1bdd484-791e-48e1-934f-7d33836159fb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a1bdd484-791e-48e1-934f-7d33836159fb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 01b1bd72-6415-46d6-ab58-f85de52a9ae3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    confirmButton: false
+    hudCreation: false
+    menuFrame: false
+    msFrame: false
+    msObj: false
+    resetButton: false
+    resizeScript: false
+    worldAnchor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - resizeScript: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      hudCreation: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      menuFrame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      msObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      msFrame: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      worldAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      resetButton: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      confirmButton: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType resizeScript
+    - // @input AssignableType_1 hudCreation
+    - // @input SceneObject menuFrame
+    - // @input SceneObject msObj
+    - // @input AssignableType_2 msFrame
+    - // @input SceneObject worldAnchor
+    - // @input AssignableType_3 resetButton
+    - // @input AssignableType_4 confirmButton
