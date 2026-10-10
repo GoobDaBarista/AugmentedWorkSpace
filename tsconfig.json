@@ -50,11 +50,11 @@
     "./Assets/**/*.ts",
     "./Packages/**/*.ts",
     "./Cache/TypeScript/Src/Packages/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Sticker_5.11.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteStore_5.14.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Hand_Tracking.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteManager_5.14.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/3D Object Upper Body_5.9.1.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteManager_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Sticker_5.11.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Touch Events_5.11.lsc/**/*.ts"
   ]
 }
